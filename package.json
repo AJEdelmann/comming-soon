@@ -1,0 +1,32 @@
+{
+  "name": "coming-soon",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJEdelmann/comming-soon.git"
+  },
+  "keywords": [],
+  "author": "Albert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJEdelmann/comming-soon/issues"
+  },
+  "homepage": "https://github.com/AJEdelmann/comming-soon#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
